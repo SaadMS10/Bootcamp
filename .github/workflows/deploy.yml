@@ -1,9 +1,8 @@
-name: Bootcamp
+name:  Bootcamp
 
 on:
   push:
     branches: [ main ]
-
 
 jobs:
   build:
