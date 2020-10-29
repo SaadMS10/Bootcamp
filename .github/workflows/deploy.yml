@@ -10,11 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
     - name: Installing Node
       uses: actions/setup-node@v2-beta
       with: 
-        node-version:  12
+        node-version: 12
     - name: Installing Surge
       run: npm install --global surge
     - name: deploying  surge
